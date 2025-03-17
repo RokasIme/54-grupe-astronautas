@@ -1,3 +1,5 @@
+# Terminalo komandos
+
 ## touch
 
 sukuriamas vienas failas:
@@ -13,6 +15,8 @@ touch main.css button.css layout.css
 ```
 
 ## mkdir
+
+sukuria direktoriją
 
 ## ls
 

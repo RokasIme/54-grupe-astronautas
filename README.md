@@ -10,7 +10,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://rokasime.github.io/54-grupe-astronautas/
 
-Design: https://dribbble.com/shots/2815937-404-page
+Design: https://dribbble.com/shots/5964475-404-Lost-in-Space
 
 ## 🎯 Project features/goals
 
@@ -49,7 +49,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
    ```sh
-   git clone hhttps://rokasime.github.io/54-grupe-ufo/
+   git clone https://rokasime.github.io/54-grupe-astronautas/
    ```
 2. Install NPM packages
    ```sh
@@ -70,7 +70,7 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-Rimantas: [Github](https://github.com/belauzas)
+Rokas: [Github](https://github.com/RokasIme)
 
 ## ⚠️ License
 
