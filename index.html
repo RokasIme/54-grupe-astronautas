@@ -74,6 +74,8 @@
     />
     <meta name="apple-mobile-web-app-title" content="MyWebSite" />
     <link rel="manifest" href="./favicon/site.webmanifest" />
+    <!-- FONTS AWESOME CSS -->
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
     <!-- CSS -->
     <link rel="stylesheet" href="./css/main.css" />
   </head>
@@ -81,19 +83,19 @@
     <header class="container">
       <img class="logo" src="./img/clay.webp" alt="Clay" />
       <nav class="main-nav">
-        <a href="#">About</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Job</a>
-        <a href="#">Contact</a>
+        <a class="main-nav-bt active" href="#">About</a>
+        <a class="main-nav-bt" href="#">Portfolio</a>
+        <a class="main-nav-bt" href="#">Job</a>
+        <a class="main-nav-bt" href="#">Contact</a>
       </nav>
     </header>
 
     <main class="container">
       <div class="left-column">
         <p class="main-title">404</p>
-        <p>Lost in space</p>
-        <div></div>
-        <p>
+        <p class="main-text">Lost in space</p>
+        <div class="h-sign"></div>
+        <p class="long-text">
           You have reached the edge of the universe. The page you requested
           could not be found. Don't wory and return to the previous page.
         </p>
@@ -106,11 +108,18 @@
     </main>
 
     <footer class="container">
-      <div>
-        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <div class="social-links">
+        <a class="social-link fa fa-facebook-square" href="https://example.com" target="_blank">
+        </a>
+        <a
+          class="social-link fa fa-twitter"
+          href="https://example.com"
+          target="_blank"
+        >
+        </a>
+        <a class="social-link fa fa-instagram" href="https://example.com  target="_blank""> </a>
+        <a class="social-link fa fa-linkedin-square" href="https://example.com" target="_blank">
+        </a>
       </div>
       <p class="copyright">&copy; 2025 - All rights reserved</p>
     </footer>

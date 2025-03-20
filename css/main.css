@@ -26,7 +26,8 @@ body {
 .main-nav {
   float: right;
 }
-nav > a {
+
+.main-nav-bt {
   float: left;
   font-size: 20px;
   line-height: 20px;
@@ -36,6 +37,11 @@ nav > a {
   margin-left: 30px;
   cursor: pointer;
 }
+
+.main-nav-bt.active {
+  text-decoration: underline;
+}
+
 nav > a:first-child {
   margin-left: 0;
 }
@@ -55,16 +61,16 @@ nav > a:hover {
   margin: 0;
   font-weight: lighter;
 }
-div > p:nth-of-type(2) {
+.main-text {
   font-size: 50px;
   margin: 0;
   font-family: Roboto;
 }
 
-div > p:nth-of-type(3) {
+.long-text {
   color: 555;
 }
-main > div > div:nth-of-type(1) {
+.h-sign {
   width: 100px;
   height: 3px;
   background-color: #649;
@@ -72,8 +78,7 @@ main > div > div:nth-of-type(1) {
 .btn-group {
   display: inline-block;
 }
-main > div > div > a {
-}
+
 .btn {
   float: left;
   font-size: 18px;
@@ -85,13 +90,12 @@ main > div > div > a {
   color: white;
   text-decoration: none;
   user-select: none;
+  box-shadow: 0px 4px 8px #0004;
 }
 .btn.btn-white {
   margin-left: 20px;
   background-color: #fff;
   color: #333;
-}
-div > div:nth-of-type(2) > a {
   box-shadow: 0px 4px 8px #0004;
 }
 
@@ -106,8 +110,14 @@ main > img {
 footer {
   margin-bottom: 40px;
 }
-footer > div {
+.social-links {
   float: left;
+}
+.social-link {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ccc;
+  margin-left: 20px;
 }
 
 .copyright {
